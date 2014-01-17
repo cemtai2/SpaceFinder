@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%; /* Sets up the Base 10 stuff */
+}
+
+/*  COLORS */
+@white: #faf9f4;
+@lightTeal: #b6dedc;
+@teal: #52b4af;
+@lilac: #9c6a8d;
+@grey: #dedede;
+
+/*  TYPOGRAPHY  */
+
+h1 {
+	font-family: 'spaceFinder';
+	.fontSize(10);
+}
+
+h2 {
+	font-family: 'spaceFinder';
+	.fontSize(4);
+}
+
+body {
+	font-family: 'sofia_pro_condensedlight';
+	.fontSize(2);
+}
+
+/*header {
+	background-color: @lilac;
+	h1 { color: @white;}
+}
+
+content {
+	background-color: @white;
+}
+
+footer {
+	background-color: @lilac;
+}
+*/
+
+/*  MIXINS  */
+
+.fontSize(@sizeValue) {
+  @remValue: @sizeValue;
+  @pxValue: (@sizeValue * 10);
+  font-size: ~"@{pxValue}px"; 
+  font-size: ~"@{remValue}rem";
+}
