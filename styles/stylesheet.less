@@ -1,44 +1,163 @@
-html {
-  font-size: 62.5%; /* Sets up the Base 10 stuff */
+/*  COLORS */
+@white: #f5f0ec;
+@ltGrey: #777777;
+@mdGrey: #393939;
+@dkGrey: #202020;
+@ltPurp: #a27eaf;
+@palePurp: #735d60;
+@purp: #614866;
+@dkPurp: #4c3d4f;   /* 75% */
+@copper: #bf592a;
+@pCopper: #bc6b46;  /* 50% */
+@dkCopper: #7b3a1b; /* 80% */
+@glow: #bf592a;     /* 75% */
+@outGlow: #7b3a1b;  /* 75% */
+
+/*  FONTS  */
+.adelle {
+	font-family: "adelle";
+	font-weight: 400;
 }
 
-/*  COLORS */
-@white: #faf9f4;
-@lightTeal: #b6dedc;
-@teal: #52b4af;
-@lilac: #9c6a8d;
-@grey: #dedede;
+.ralewayLight {
+	font-family: 'ralewaythin';
+}
 
-/*  TYPOGRAPHY  */
-
-h1 {
-	font-family: 'spaceFinder';
-	.fontSize(10);
+.raleway {
+	font-family: 'ralewayregular';
 }
 
 h2 {
-	font-family: 'spaceFinder';
-	.fontSize(4);
+	font-size: 32px;
+	color: @purp;
+	.adelle;
+	font-weight: 400;
+	margin: 55px 0 25px 55px;
+	letter-spacing: -1.35px;
 }
 
-body {
-	font-family: 'sofia_pro_condensedlight';
-	.fontSize(2);
+/*  STYLES  */
+	html {
+		font-size: 62.5%; /* Sets up the Base 10 stuff */
+		margin: 0;
+		padding: 0;
+		-webkit-font-smoothing:antialiased;
+		background-image: url(../images/bckgrnd.png);
+		height: 100%;
+	}
+
+	body {
+		font-family: 'ralewaylight';
+		.fontSize(2);
+		color: @mdGrey;
+		margin: 0;
+		padding: 0;
+		line-height: 35px;
+		height: 100%;
+	}
+	
+  /*  header  */
+	
+	header {
+		background-image: url(../images/headbg.png);
+		margin: 0;
+		padding: 27px 0;
+	}
+	
+	header nav div h1 a {
+		color: @ltGrey;
+		font-size: 50px;
+		text-shadow: 0 0 2px rgba(0,0,0,.75);
+		float: left;
+		position: relative;
+		top: 0px;
+		left: 0px;
+		.raleway;
+		text-decoration: none;
+		letter-spacing: -1px;
+	}
+	
+	header h1 {
+		margin: 0;
+	}
+	
+	nav {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 21px;
+		padding-top: 17px;
+		border-top: 1px solid @palePurp;
+		border-bottom: 1px solid @palePurp;
+	}
+	
+	.navbar a {
+		color: @copper;
+		.raleway;
+		font-size: 20px;
+		border: 1px solid @copper;
+		text-transform: uppercase;
+		width: 117px;
+		display: inline-block;
+		text-decoration: none;
+		margin: 0 25px;
+    box-shadow: 0px 0px 0px 1px rgba(123,58,27,0.8), 0px 0px 0px 1px rgba(188,107,70,0.75);
+		cursor: pointer;
+		transition: background-color 0.5s ease, color 0.5s ease;
+	}
+	
+	.navbar a:hover {
+		background-color: @copper;
+		color: @dkGrey;
+	}
+	
+	p {
+		margin-left: 80px;
+		margin-bottom: 0;
+	}
+
+	ul {
+		padding-left: 100px;
+	}
+	
+	footer span {
+		color: @ltGrey;
+	}
+	
+	footer a {
+		color: @ltGrey;
+		text-decoration: none;
+		padding:0 50px;
+	}
+	
+	footer {
+		background-image: url(../images/headbg.png);
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+		text-align: center;
+		display: block;
+		font-size: 18px;
+		padding: 10px;
+	}
+
+@media only screen and (min-width: 400px) and (max-width: 900px) {
+	
+	select {
+		width: 96%;
+	}
+	
+	input[type='text'] {
+		width: 90%;		
+	}
+	
+	span {
+		display: block;
+		width: 100%;
+		clear: both;
+	}
 }
 
-/*header {
-	background-color: @lilac;
-	h1 { color: @white;}
-}
-
-content {
-	background-color: @white;
-}
-
-footer {
-	background-color: @lilac;
-}
-*/
 
 /*  MIXINS  */
 
@@ -47,4 +166,314 @@ footer {
   @pxValue: (@sizeValue * 10);
   font-size: ~"@{pxValue}px"; 
   font-size: ~"@{remValue}rem";
+}
+
+/*  CLASSES  */
+.closeLink {
+	position: relative;
+	right: 10px;
+	color: @white;
+	display: block;
+	text-align: right;
+}
+
+.closeLink:hover {
+	border-bottom: none;
+	cursor: pointer;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*  ADD NEW  */
+form.addNewForm {
+	padding: 20px 30px 30px;
+}
+.addNewForm {
+	border: 1px solid @white;
+}
+#contentDiv .addNew {
+	background-color: @dkPurp;
+	margin: 20px;
+	padding: 20px;
+}
+.addNew fieldset {
+	border: 1px solid @white;
+	display: block;
+	padding: 10px 20px 0;
+}
+
+.addNew fieldset legend {
+	text-transform: uppercase;
+	color: @copper;
+}
+
+input, select {
+	background-color: @dkPurp;
+	border: 3px double @white;
+	font-family: raleway;
+	size: 18px;
+	color: @white;
+	text-align: center;
+	padding: 4px 0;
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	padding: 8px;
+}
+
+.container {
+	text-align: justify;
+	display: block;
+}
+
+.container span {
+	display: inline-block;
+}
+
+.container:after {
+	content: '';
+	width: 100%;
+	display: inline-block;
+}
+
+.hallTwo {
+	margin-top: 10px;
+}
+
+.three {
+	display: inline-block;
+}
+
+.imgUpload {
+	width: 100%;
+	height: 364px;
+}
+
+fieldset.extraPad {
+	padding-top: 15px;
+}
+
+textarea {
+	width: 99%;
+	background-color: @dkPurp;
+	border: 1px solid @white;
+}
+
+.notes {
+	width: 100%;
+	height: 134px;
+}
+
+fieldset.laundry, fieldset.kit {
+	padding-top: 4px;
+}
+
+fieldset.rooms, fieldset.kitchen {
+	display: inline-block;
+	width: 241px;
+}
+
+fieldset.kitchen {
+	margin-left: 14px;
+	width: 232px;
+}
+
+.rowTwo {
+	padding: 20px 0;
+}
+
+.cOne {
+	margin-right:20px;
+}
+
+.cTwo {
+	width: 38%;
+}
+
+.cThree {
+	width: 24%;
+	margin: 0 20px;
+}
+
+.col {
+	display: inline-block;
+}
+.three
+{
+	width: auto;
+}
+.other fieldset, fieldset.misc {
+	border: none;
+	border-top: 1px solid @white;
+}
+
+fieldset.misc {
+	text-align: justify;
+	width: 100%;
+}
+
+fieldset.misc span {
+	display: inline-block;
+}
+
+.other fieldset legend {
+	font-size: 14px;
+}
+.other fieldset fieldset label {
+	font-size: 12px;
+}
+.addNew label {
+	text-transform: uppercase;
+	color: @white;
+	font-size: 12px;
+	display: block;
+}
+input[type='text']
+{
+	font-size: 22px;
+}
+input.floor {
+	width: 68px;
+}
+input.city {
+	width: 134px;
+}
+
+input.one, select.one {
+	width: 38px;
+}
+
+input.two, select.two {
+	width: 43px;
+}
+
+input.three, select.three {
+	width: 60px;
+}
+
+input.four, select.four {
+	width: 72px;
+}
+
+input.five, select.five {
+	width: 84px;
+}
+
+input.six, select.six {
+	width: 87px;
+}
+
+input.seven, select.seven {  
+	width: 96px;
+}
+
+input.eight, select.eight {
+	width: 109px;
+}
+
+input.nine, select.nine {
+	width: 131px;
+}
+
+input.ten, select.ten {
+	width: 134px;
+}
+
+input.eleven, select.eleven {
+	width: 142px;
+}
+
+input.twelve, select.twelve {
+	width: 147px;
+}
+
+input.thirteen, select.thirteen {
+	width: 164px;
+}
+
+input.fourteen, select.fourteen {
+	width: 180px;
+}
+
+input.fifteen, select.fifteen {
+	width: 374px;
+}
+
+.col-2-col-1 {
+	width: 35%;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.col-2-col-2 {
+	width: 57%;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+div.checkbox label {
+	text-transform: capitalize;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.hallOne {
+	height: 70px;
+}
+
+ .hallTwo {
+	 height: 70px;
+ }
+
+.checkbox {
+	width: 316px;
+	margin-left: 20px;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+input[type='checkbox'] + label span {
+	display: inline-block;
+	width: 32px;
+	height: 23px;
+	background: url(../images/chkbox.png);
+	position: relative;
+	top: 2px;
+}
+
+input[type='checkbox']:checked + label span {
+	background: url(../images/chk.png);	
+}
+
+.row {
+	text-align: justify;
+	padding-bottom: 21px;
+	height: 21px;
+}
+
+.row:after {
+	content: '';
+	width: 100%;
+	display: inline-block;
+}
+
+#contentDiv {
+	line-height: normal;
+}
+
+.column {
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid @white;
+	display: inline-block;
 }
