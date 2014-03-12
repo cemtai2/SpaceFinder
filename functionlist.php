@@ -11,5 +11,6 @@ include('/includes/functions/cellF.php');
 include('/includes/functions/ratingF.php');
 include('/includes/functions/viewF.php');
 include('/includes/functions/geturlF.php');
+include('/includes/functions/imgUploadF.php');
 
 ?>

@@ -9,6 +9,9 @@ function add ()
 	
 	echo "
 		<input type='hidden' name='type' id='type' value='addNew' />
+		<div class='submit'>
+			<input type='submit' value='Save' />
+		</div>
 	</form>
 </div>";  
 }

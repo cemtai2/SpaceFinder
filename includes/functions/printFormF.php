@@ -43,8 +43,8 @@ function printForm($type, $info = '')
 					</span>
 
 					<span>
-						<label for='level'>level</label>
-						<input type='text' name='level' id='level' class='one' />
+						<label for='levels'>level</label>
+						<input type='text' name='levels' id='levels' class='one' />
 					</span>
 					
 					<span>
@@ -100,8 +100,8 @@ function printForm($type, $info = '')
 					</span>
 					
 					<span>
-						<label for='baseFloor'>floor</label>
-						<select name='baseFloor' id='baseFloor' class='five'>
+						<label for='basementFloor'>floor</label>
+						<select name='basementFloor' id='basementFloor' class='five'>
 							<option value='zero'></option>
 							<option value='one'>Epoxy Coating</option>
 							<option value='two'>Carpeting</option>
@@ -171,8 +171,8 @@ function printForm($type, $info = '')
 				
 				<div class='container'>
 					<span>
-						<label for='bathFloor'>floor</label>
-						<select name='bathFloor' id='bathFloor' class='six'>
+						<label for='bathFloorA'>floor</label>
+						<select name='bathFloorA' id='bathFloorA' class='six'>
 							<option value=''></option>
 							<option value='wood'>Wood</option>
 							<option value='linolium'>Linolium</option>
@@ -182,8 +182,8 @@ function printForm($type, $info = '')
 					</span>
 					
 					<span>
-						<label for='bathCounter'>Vanity</label>
-						<select name='bathCounter' id='bathCounter' class='six'>
+						<label for='bathCounterA'>Vanity</label>
+						<select name='bathCounterA' id='bathCounterA' class='six'>
 							<option value=''></option>
 							<option value='granite'>Granite</option>
 							<option value='formica'>Formica</option>
@@ -192,8 +192,8 @@ function printForm($type, $info = '')
 					</span>
 					
 					<span>
-						<label for='bathShower'>Shower Material</label>
-						<select name='showerStall' id='showerStall' class='thirteen'>
+						<label for='showerStallA'>Shower Material</label>
+						<select name='showerStallA' id='showerStallA' class='thirteen'>
 							<option value=''></option>
 							<option value='tile'>Tile</option>
 							<option value='fiberglass'>Fiberglass</option>
@@ -201,8 +201,8 @@ function printForm($type, $info = '')
 					</span>
 
 					<span>
-						<label for='bathStorage'>Storage</label>
-						<select name='bathStorage' id='bathStorage' class='eleven'>
+						<label for='bathStorageA'>Storage</label>
+						<select name='bathStorageA' id='bathStorageA' class='eleven'>
 							<option value=''></option>
 							<option value='small'>Small</option>
 							<option value='medium'>Medium</option>
@@ -213,8 +213,8 @@ function printForm($type, $info = '')
 				
 				<div class='container'>
 					<span>
-						<label for='bathFloor'>floor</label>
-						<select name='bathFloor' id='bathFloor' class='six'>
+						<label for='bathFloorB'>floor</label>
+						<select name='bathFloorB' id='bathFloorB' class='six'>
 							<option value=''></option>
 							<option value='wood'>Wood</option>
 							<option value='linolium'>Linolium</option>
@@ -224,8 +224,8 @@ function printForm($type, $info = '')
 					</span>
 					
 					<span>
-						<label for='bathCounter'>Vanity</label>
-						<select name='bathCounter' id='bathCounter' class='six'>
+						<label for='bathCounterB'>Vanity</label>
+						<select name='bathCounterB' id='bathCounterB' class='six'>
 							<option value=''></option>
 							<option value='granite'>Granite</option>
 							<option value='formica'>Formica</option>
@@ -234,8 +234,8 @@ function printForm($type, $info = '')
 					</span>
 					
 					<span>
-						<label for='bathShower'>Shower Material</label>
-						<select name='showerStall' id='showerStall' class='thirteen'>
+						<label for='showerStallB'>Shower Material</label>
+						<select name='showerStallB' id='showerStallB' class='thirteen'>
 							<option value=''></option>
 							<option value='tile'>Tile</option>
 							<option value='fiberglass'>Fiberglass</option>
@@ -243,8 +243,8 @@ function printForm($type, $info = '')
 					</span>
 
 					<span>
-						<label for='bathStorage'>Storage</label>
-						<select name='bathStorage' id='bathStorage' class='eleven'>
+						<label for='bathStorageB'>Storage</label>
+						<select name='bathStorageB' id='bathStorageB' class='eleven'>
 							<option value=''></option>
 							<option value='small'>Small</option>
 							<option value='medium'>Medium</option>
@@ -263,8 +263,8 @@ function printForm($type, $info = '')
 					<fieldset class='container'>
 						<legend>master bed</legend>
 						<span>
-							<label for='masterFloor'>Floor</label>
-							<select name='masterFloor' id='masterFloor' class='four'>
+							<label for='mBedFloor'>Floor</label>
+							<select name='mBedFloor' id='mBedFloor' class='four'>
 								<option value=''></option>
 								<option value='carpet'>Carpet</option>
 								<option value='wood'>Wood</option>
@@ -272,8 +272,8 @@ function printForm($type, $info = '')
 						</span>
 						
 						<span>
-							<label for='masterCloset'>Closet</label>
-							<select name='masterCloset' id='masterCloset' class='four'>
+							<label for='mBedCloset'>Closet</label>
+							<select name='mBedCloset' id='mBedCloset' class='four'>
 								<option value='zero'></option>
 								<option value='one'>Large WI</option>
 								<option value='two'>Medium WI</option>
@@ -287,7 +287,7 @@ function printForm($type, $info = '')
 						<legend>bedrooms</legend>
 						<span>
 							<label for='bedFloor'>Floor</label>
-							<select name='masterFloor' id='masterFloor' class='four'>
+							<select name='bedFloor' id='bedFloor' class='four'>
 								<option value=''></option>
 								<option value='carpet'>Carpet</option>
 								<option value='wood'>Wood</option>
@@ -296,7 +296,7 @@ function printForm($type, $info = '')
 						
 						<span>
 							<label for='bedCloset'>Closet</label>
-							<select name='masterCloset' id='masterCloset' class='four'>
+							<select name='bedCloset' id='bedCloset' class='four'>
 								<option value='zero'></option>
 								<option value='one'>Large WI</option>
 								<option value='two'>Medium WI</option>
@@ -333,8 +333,8 @@ function printForm($type, $info = '')
 						<legend>hallways</legend>
 						<div class='hallOne container'>
 							<span>
-								<label for='hallClosetOne'>Closet</label>
-								<select name='hallClosetOne' id='hallClosetOne' class='four'>
+								<label for='hallOne'>Closet</label>
+								<select name='hallOne' id='hallOne' class='four'>
 									<option value=''></option>
 									<option value='small'>Small</option>
 									<option value='medium'>Medium</option>
@@ -343,8 +343,8 @@ function printForm($type, $info = '')
 							</span>
 	
 							<span>
-								<label for='hallClosetTwo'>Closet</label>
-								<select name='hallClosetTwo' id='hallClosetTwo' class='four'>
+								<label for='hallTwo'>Closet</label>
+								<select name='hallTwo' id='hallTwo' class='four'>
 									<option value=''></option>
 									<option value='small'>Small</option>
 									<option value='medium'>Medium</option>
@@ -355,8 +355,8 @@ function printForm($type, $info = '')
 					
 						<div class='hallTwo container'>
 							<span>
-								<label for='hallClosetThree'>Closet</label>
-								<select name='hallClosetThree' id='hallClosetThree' class='four'>
+								<label for='hallThree'>Closet</label>
+								<select name='hallThree' id='hallThree' class='four'>
 									<option value=''></option>
 									<option value='small'>Small</option>
 									<option value='medium'>Medium</option>
@@ -365,8 +365,8 @@ function printForm($type, $info = '')
 							</span>
 	
 							<span>
-								<label for='hallClosetFour'>Closet</label>
-								<select name='hallClosetFour' id='hallClosetFour' class='four'>
+								<label for='hallFour'>Closet</label>
+								<select name='hallFour' id='hallFour' class='four'>
 									<option value=''></option>
 									<option value='small'>Small</option>
 									<option value='medium'>Medium</option>
@@ -452,8 +452,8 @@ function printForm($type, $info = '')
 						</span>
 					</fieldset>
 
-					<div class='block checkbox'>
-						<div class='row'>
+					<div class='block checkbox'> 						
+						<div class='row'>	
 							<span>
 								<input type='hidden' name='den' value='no' />
 								<input type='checkbox' name='den' value='yes' id='den' />
@@ -465,21 +465,21 @@ function printForm($type, $info = '')
 								<input type='checkbox' name='rec' value='yes' id='rec' />
 								<label for='rec'><span></span>Rec</label>
 							</span>
-								
-							<span>
-								<input type='hidden' name='sun' value='no' />
-								<input type='checkbox' name='sun' value='yes' id='sun' />
-								<label for='sun'><span></span>Sun</label>
-							</span>
-								
+
 							<span>
 								<input type='hidden' name='mud' value='no' />
 								<input type='checkbox' name='mud' value='yes' id='mud' />
 								<label for='mud'><span></span>Mud</label>
 							</span>
+							
+							<span>
+								<input type='hidden' name='sun' value='no' />
+								<input type='checkbox' name='sun' value='yes' id='sun' />
+								<label for='sun'><span></span>Sun</label>
+							</span>
 						</div>
 						
-						<div class='row'>	
+						<div class='row'>
 							<span>
 								<input type='hidden' name='office' value='no' />
 								<input type='checkbox' name='office' value='yes' id='office' />
@@ -507,8 +507,8 @@ function printForm($type, $info = '')
 							</span>
 								
 							<span>
-								<input type='hidden' name='range' value='no' />
-								<input type='checkbox' name='range' value='yes' id='range' />
+								<input type='hidden' name='oRange' value='no' />
+								<input type='checkbox' name='oRange' value='yes' id='oRange' />
 								<label for='range'><span></span>Range</label>
 							</span>
 								
@@ -527,9 +527,9 @@ function printForm($type, $info = '')
 							</span>
 								
 							<span>
-								<input type='hidden' name='bBar' value='no' />
-								<input type='checkbox' name='bBar' value='yes' id='bBar' />
-								<label for='bBar'><span></span>Breakfast Bar</label>
+								<input type='hidden' name='breakfastBar' value='no' />
+								<input type='checkbox' name='breakfastBar' value='yes' id='breakfastBar' />
+								<label for='breakfastBar'><span></span>Breakfast Bar</label>
 							</span>
 						</div>
 						
@@ -643,13 +643,14 @@ function printForm($type, $info = '')
 		<div>
 			<fieldset class='imgUpload'>
 				<legend>image upload</legend>
+				" , imgUpload() , "
 			</fieldset>
 		</div>
 		
 		<div>
 			<fieldset class='notes'>
 				<legend>notes</legend>
-				<textarea cols='40' rows='5' name='notes' id='notes'>
+				<textarea cols='40' rows='8' name='notes' id='notes'>
 				</textarea>
 			</fieldset>
 		</div>
@@ -669,8 +670,8 @@ function printForm($type, $info = '')
 				</span>
 				
 				<span>
-					<label for='days'>days</label>
-					<input type='text' name='days' id='days' class='two' />
+					<label for='daysOnMarket'>days</label>
+					<input type='text' name='daysOnMarket' id='daysOnMarket' class='two' />
 				</span>
 				
 				<span>
@@ -944,13 +945,13 @@ function printForm($type, $info = '')
 				</span>
 				
 				<span>
-					<label for='bBar'>Breakfast Bar</label>
-					<input type='hidden' name='bBar' value='no' />
+					<label for='breakfastBar'>Breakfast Bar</label>
+					<input type='hidden' name='breakfastBar' value='no' />
 					";
             if ($info['breakfastBar'] == 'yes') {
-                echo "<input type='checkbox' name='bBar' value='yes' id='bBar' placeholder='Breakfast Bar' checked/>";
+                echo "<input type='checkbox' name='breakfastBar' value='yes' id='breakfastBar' placeholder='Breakfast Bar' checked/>";
             } else {
-                echo "<input type='checkbox' name='bBar' value='yes' id='bBar' placeholder='Breakfast Bar' />";
+                echo "<input type='checkbox' name='breakfastBar' value='yes' id='breakfastBar' placeholder='Breakfast Bar' />";
             }
             echo "
 				</span>
