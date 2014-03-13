@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS `uploads` (
-  `upload_id` int(11) NOT NULL AUTO_INCREMENT,
-  `upload_name` varchar(50) DEFAULT NULL,
-  `upload_date` varchar(10) DEFAULT NULL,
-  PRIMARY KEY (`upload_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
