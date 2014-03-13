@@ -1,5 +1,5 @@
 <?php
-
+//This function prints the form based on the parameters that have been passed.  Currently only add form has been tested.  Dreamweaver shows an error on line 7, but the code functions and saves.  Not sure what DW has a problem with.
 function printForm($type, $info = '')
 {
     switch ($type) {

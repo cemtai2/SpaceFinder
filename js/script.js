@@ -17,13 +17,17 @@ function visSwitch(page) {
 
 function bathrooms()
 {
-
 	var baths = document.getElementById('baths').value;
-	var count = document.body.childNodes.length;
-	var x = Array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H');
+	var bathroom = document.getElementById('bathroom');
+	var bathArray = clean(Array.prototype.slice.call(bathroom.childNodes));
+	var numBath = baths.value;
+	var count = bathArray.length;
+	var x = Array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'); 
+	alert('Baths: ' + baths + 'Count: ' + count);
 	
 	if ( count < baths )
 	{
+		alert( 'count is less than baths' );
 		var y = baths - count;
 
 		
@@ -36,14 +40,30 @@ function bathrooms()
 		document.getElementById('bathroom').appendChild(input);
 		}
 	}          //6       2
-	else if ( count > baths )
+	
+	if ( count > baths )
 	{
+		alert('count is greater than baths');
 		var z = count - baths;
 		while ( z > baths )
-		var temp = x[z];		
-		var node = document.getElementById(bathroom);
-		var lastChild = node.lastChild;
-		node.removeChild(lastChild);
-		--count;
+		{
+			var last = bathroom.lastChild;
+			alert(last);
+			-z;
+		}
 	}	
+}
+
+function clean(x)
+{
+	for (var i = 0; i < x.length; i++ )
+	{
+		if(x[i].innerHTML == undefined || x[i].innerHTML == 'bathroom')
+		{
+			x.splice(i,1);
+			--i;
+		}
+	}
+	
+	return x;
 }

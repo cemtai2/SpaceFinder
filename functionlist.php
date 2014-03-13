@@ -1,4 +1,5 @@
 <?php
+// List of all files that need to be included, output in header.php
 // include('/includes/functions/.php');
 
 include('includes/functions/dbConnectF.php');

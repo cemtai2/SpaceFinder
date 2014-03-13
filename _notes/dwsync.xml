@@ -10,18 +10,11 @@
 <file name="index.php" server="ftp.kendra-moore.com" local="130374902293100451" remote="130375005600000000" Dst="1" />
 <file name=".gitattributes" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037114255878" remote="130390521000000000" Dst="2" />
 <file name=".gitignore" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037114325882" remote="130390521000000000" Dst="2" />
-<file name="index.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130387054398041657" remote="130390521000000000" Dst="2" />
-<file name="functionlist.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130391267552409386" remote="130391195400000000" Dst="2" />
-<file name="list.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037115145929" remote="130390521000000000" Dst="2" />
-<file name="edit.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037114685903" remote="130390521000000000" Dst="2" />
-<file name="view.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384039612798787" remote="130390521000000000" Dst="2" />
-<file name="addNew.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130387059734586890" remote="130390521000000000" Dst="2" />
-<file name="addnew.png" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130387112464472867" remote="130390185600000000" Dst="2" />
-<file name="addNew.png" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130390620954869249" remote="130391101200000000" Dst="2" />
-<file name="list.png" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130390621563584065" remote="130391101200000000" Dst="2" />
-<file name="view.png" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130390622073233215" remote="130391101200000000" Dst="2" />
-<file name="testpage.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130391245567301910" remote="130391173200000000" Dst="2" />
+<file name="index.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392053067239304" remote="130391980800000000" Dst="2" />
+<file name="functionlist.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392053842143626" remote="130391981400000000" Dst="2" />
+<file name="list.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392054447628258" remote="130391982000000000" Dst="2" />
+<file name="edit.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392053350835525" remote="130391980800000000" Dst="2" />
+<file name="view.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392055008300326" remote="130391982600000000" Dst="2" />
+<file name="addNew.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392053036947571" remote="130391980800000000" Dst="2" />
 <file name=".htaccess" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130391235421471602" remote="130391163000000000" Dst="2" />
-<file name="testpage.php" server="E:/wamp/www/public_html/kendra-moore/spaceFinder/" local="130391245567301910" remote="130391245560000000" Dst="2" />
-<file name="testpage.html" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130391380369092131" remote="130391308200000000" Dst="2" />
 </dwsync>

@@ -1,4 +1,5 @@
 <?php 
+// home page
 
 include('includes/sections/header.php');
 

@@ -1,5 +1,5 @@
 <?php
-
+//This function outputs all data on a single entry.  Was functioning in v.01, but hasn't been tested since.  Probably won't work.
 function viewPage($info) {
     $priKey = $_GET['priKey'];
     echo "	
