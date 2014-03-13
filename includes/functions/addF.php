@@ -1,7 +1,8 @@
 <?php
+//calls the printForm function with the parameter add, function located in includes/functions/printFormF.php
 function add ()
 {
-	echo "
+	echo " 
 		<div class='addNew'>
 			<form id='addNew' action='index.php' class='addNewForm' method='post'>
 			";

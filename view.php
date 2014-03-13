@@ -1,5 +1,7 @@
 <?php
 
+//Shows an individual listing and all details.  Calls the viewPage function located at includes/functions/viewPageF.php  
+
 include('includes/sections/header.php');
 
 //mysql_connect("localhost", "kendramo_spf", "DbmHvhw3")

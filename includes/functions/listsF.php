@@ -1,5 +1,5 @@
 <?php
-
+//This function lists previews of all database entries.  Not sure why the dbConnect function isn't being used.  Need to fix. 
 function lists() {
 
    //mysql_connect("localhost", "kendramo_spf", "DbmHvhw3")

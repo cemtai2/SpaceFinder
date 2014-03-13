@@ -1,4 +1,5 @@
 <?php
+//This is the rating function, it was working in v.01, but is not currently being used. 
 function good ( $value, $default, $decimal )
 {
 	$a = ( $value / $default ) * 100;

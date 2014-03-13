@@ -1,4 +1,5 @@
 <?php
+//Calls the printForm functions with the parameter 'edit'.  Function located at includes/functions/printFormF.php 
 function edit ()
 {
 	mysql_connect("localhost","kendramo_spf","DbmHvhw3")
