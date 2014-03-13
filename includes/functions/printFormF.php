@@ -75,7 +75,7 @@ function printForm($type, $info = '')
 					
 					<span>
 						<label for='baths'>baths</label>
-						<input type='text' name='baths' id='baths' class='one' />
+						<input type='text' name='baths' id='baths' class='one' onChange='bathrooms()' />
 					</span>
 					
 					<span>
@@ -166,7 +166,7 @@ function printForm($type, $info = '')
 				</div>
 			</fieldset>
 		</div>	
-			<fieldset class='bathroom'>
+			<fieldset class='bathroom' id='bathroom'>
 				<legend>bathroom</legend>
 				
 				<div class='container'>
