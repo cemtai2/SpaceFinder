@@ -1,5 +1,5 @@
 <?php
-
+//This function prints the form based on the parameters that have been passed.  Currently only add form has been tested.  Dreamweaver shows an error on line 7, but the code functions and saves.  Not sure what DW has a problem with.
 function printForm($type, $info = '')
 {
     switch ($type) {
@@ -75,7 +75,7 @@ function printForm($type, $info = '')
 					
 					<span>
 						<label for='baths'>baths</label>
-						<input type='text' name='baths' id='baths' class='one' />
+						<input type='text' name='baths' id='baths' class='one' onChange='bathrooms()' />
 					</span>
 					
 					<span>
@@ -166,7 +166,7 @@ function printForm($type, $info = '')
 				</div>
 			</fieldset>
 		</div>	
-			<fieldset class='bathroom'>
+			<fieldset class='bathroom' id='bathroom'>
 				<legend>bathroom</legend>
 				
 				<div class='container'>

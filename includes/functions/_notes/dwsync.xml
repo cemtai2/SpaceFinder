@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="editF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130385178146959382" remote="130385142000000000" Dst="1" />
-<file name="listsF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384040192701955" remote="130384003800000000" Dst="1" />
-<file name="dbConnectF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130385064894471710" remote="130385028600000000" Dst="1" />
-<file name="addF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130390306445130321" remote="130390234200000000" Dst="2" />
-<file name="processFormF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130390546683471168" remote="130390474200000000" Dst="2" />
-<file name="form.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037138457262" remote="130390186200000000" Dst="2" />
-<file name="printFormF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130390546280208102" remote="130390474200000000" Dst="2" />
-<file name="test.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037138957291" remote="130390186200000000" Dst="2" />
-<file name="ratingF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037138887287" remote="130390186200000000" Dst="2" />
-<file name="cellF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037138207248" remote="130390186200000000" Dst="2" />
-<file name="init.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037138537267" remote="130390186200000000" Dst="2" />
-<file name="viewF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384037139067297" remote="130390186200000000" Dst="2" />
-<file name="geturlF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130387028951926222" remote="130386992400000000" Dst="1" />
-<file name="test.html" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130389148816880899" remote="130389076200000000" Dst="2" />
+<file name="editF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072941616053" remote="130392000600000000" Dst="2" />
+<file name="listsF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072847160651" remote="130392000600000000" Dst="2" />
+<file name="dbConnectF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072572864962" remote="130392000000000000" Dst="2" />
+<file name="addF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072609497057" remote="130392000000000000" Dst="2" />
+<file name="processFormF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392163783971939" remote="130392091200000000" Dst="2" />
+<file name="printFormF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072667070350" remote="130392000600000000" Dst="2" />
+<file name="ratingF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072774406489" remote="130392000600000000" Dst="2" />
+<file name="viewF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072714823081" remote="130392000600000000" Dst="2" />
+<file name="geturlF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072911104308" remote="130392000600000000" Dst="2" />
 <file name="printFormF.php" server="E:/wamp/www/public_html/kendra-moore/spaceFinder/" local="130389311424771539" remote="130389311420000000" Dst="2" />
-<file name="imgUploadF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130389716487200773" remote="130389644400000000" Dst="2" />
+<file name="imgUploadF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072880842577" remote="130392000600000000" Dst="2" />
+<file name="good.html" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392114785579391" remote="130392042600000000" Dst="2" />
+<file name="bad.html" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392114891405444" remote="130392042600000000" Dst="2" />
 </dwsync>

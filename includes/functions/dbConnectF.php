@@ -1,4 +1,5 @@
 <?php
+//Connects to the database
 function dbConnect ($sql)
 {
 	// Create connection ,"kendramo_spacefinder"

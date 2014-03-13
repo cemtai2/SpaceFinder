@@ -9,13 +9,8 @@
 <file name="fonts.css" server="ftp.kendra-moore.com" local="130344477044414975" remote="130375006200000000" Dst="1" />
 <file name="stylesheet.css" server="ftp.kendra-moore.com" local="130373131961292145" remote="130375006200000000" Dst="1" />
 <file name="stylesheet.less" server="ftp.kendra-moore.com" local="130374545636833290" remote="130375006200000000" Dst="1" />
-<file name="fonts.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130386771508588985" remote="130386735000000000" Dst="1" />
-<file name="stylesheet.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130388574914317968" remote="130388502600000000" Dst="2" />
-<file name="stylesheet.less" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130390231283891344" remote="130390159200000000" Dst="2" />
-<file name="blueimp-gallery.min.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130384189215995600" remote="130390186800000000" Dst="2" />
-<file name="jquery.fileupload-noscript.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130383989905105669" remote="130390186800000000" Dst="2" />
-<file name="jquery.fileupload-ui-noscript.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130383989905235677" remote="130390186800000000" Dst="2" />
-<file name="jquery.fileupload-ui.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130383989905175673" remote="130390186800000000" Dst="2" />
-<file name="jquery.fileupload.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130383989905045666" remote="130390186800000000" Dst="2" />
-<file name="style.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130383989905295680" remote="130390186800000000" Dst="2" />
+<file name="fonts.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130386771508588985" remote="130390521000000000" Dst="2" />
+<file name="stylesheet.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130388574914317968" remote="130390521000000000" Dst="2" />
+<file name="stylesheet.less" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130390231283891344" remote="130390521000000000" Dst="2" />
+<file name="style.css" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130383989905295680" remote="130390521000000000" Dst="2" />
 </dwsync>
