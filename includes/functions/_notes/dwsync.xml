@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="editF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072941616053" remote="130392000600000000" Dst="2" />
-<file name="listsF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072847160651" remote="130392000600000000" Dst="2" />
-<file name="dbConnectF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072572864962" remote="130392000000000000" Dst="2" />
+<file name="listsF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392956884031510" remote="130392884400000000" Dst="2" />
+<file name="dbConnectF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392202767591674" remote="130392130200000000" Dst="2" />
 <file name="addF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072609497057" remote="130392000000000000" Dst="2" />
 <file name="processFormF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392163783971939" remote="130392091200000000" Dst="2" />
 <file name="printFormF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072667070350" remote="130392000600000000" Dst="2" />
@@ -11,6 +11,4 @@
 <file name="geturlF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072911104308" remote="130392000600000000" Dst="2" />
 <file name="printFormF.php" server="E:/wamp/www/public_html/kendra-moore/spaceFinder/" local="130389311424771539" remote="130389311420000000" Dst="2" />
 <file name="imgUploadF.php" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392072880842577" remote="130392000600000000" Dst="2" />
-<file name="good.html" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392114785579391" remote="130392042600000000" Dst="2" />
-<file name="bad.html" server="ftp.kendra-moore.com//mylivingspacefinder/" local="130392114891405444" remote="130392042600000000" Dst="2" />
 </dwsync>

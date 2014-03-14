@@ -27,7 +27,7 @@ include('functionlist.php');
           <div class='navbar'>
           	<a href='/SpaceFinder/index.php'>Home</a>
             <a href='/SpaceFinder/addNew.php'>Add New</a>
-            <a href='/SpaceFinder/view.php'>View</a>
+            <a href='/SpaceFinder/list.php'>View</a>
             <a href='/SpaceFinder/about.php'>About</a>
             <a href='/SpaceFinder/howTo.php'>How To</a>
 					</div>
