@@ -3,236 +3,57 @@
 function viewPage($info) {
     $priKey = $_GET['priKey'];
     echo "	
-	<div class='contentDiv'>	
-		<h2>", $info['street'], " ", $info['city'], " <a href='edit.php?priKey=", urlencode($priKey), "'>Edit</a></h2> 
-		
-		<div class='bSec price'>
-			Price: $", number_format($info['price']), "
-		</div>
-		
-		<div class='bSec levels'>
-			Levels: ", $info['levels'], "
-		</div>
-		
-		<div class='bSec beds'>
-			Beds: ", $info['beds'], "
-		</div>
-		
-		<div class='bSec baths'>
-			Baths: ", $info['baths'], "
-		</div>
-		
-		<div class='bSec rooms'>
-			Rooms: ", $info['rooms'], "
-		</div>
-		
-		<div class='bSec basement'>
-			Basement: ", $info['basement'], "
-		</div>
-		
-		<div class='bSec sqftTotal'>
-		  Total Sqft: ", $info['sqftTotal'], "
-		</div>
-		
-		<div class='bSec sqftFin'>
-			Finished Sqft: ", $info['sqftFin'], "
-		</div>
-		
-		<div class='bSec sqftUnFin'>
-			Unfinished Sqft: ", $info['sqftUnFin'], "
-		</div>
-		
-		<div class='bSec distance'>
-			Distance: ", $info['distance'], "
-		</div>
-		
-		<div class='bSec propTax'>
-			PropTax: ", $info['propTax'], "
-		</div>
-		
-		<div class='bSec age'>
-			Age: ", $info['age'], "
-		</div>
-		
-		<div class='bSec lot'>
-			Lot: ", $info['lot'], "
-		</div>
-		
-		<div class='bSec ha'>
-			Homeowners Association: ", $info['ha'], "
-		</div>
-		
-		<div class='bSec fence'>
-			Fence: ", $info['fence'], "
-		</div>
-		
-		<div class='bSec cooling'>
-			Cooling: ", $info['cooling'], "
-		</div>
-		
-		<div class='bSec dishwasher'>
-			Dishwasher: ", $info['dishwasher'], "
-		</div>
-		
-		<div class='bSec fridge'>
-			Fridge: ", $info['fridge'], "			
-		</div>
-		
-		<div class='bSec oven'>
-			Oven: ", $info['oven'], "
-		</div>
-		
-		<div class='bSec disposal'>
-			Disposal: ", $info['disposal'], "
-		</div>
-		
-		<div class='bSec microwave'>
-			Microwave: ", $info['microwave'], "
-		</div>
-		
-		<div class='bSec ha_fee'>
-			Homeowners Association Fee: ", $info['ha_fee'], "
-		</div>
-		
-		<div class='bSec fireplace'>
-			Fireplaces: ", $info['fireplace'], "
-		</div>
-		
-		<div class='bSec garageSize'>
-		Garage Size: ", $info['garageSize'], "
-		</div>
-		
-		<div class='bSec breakfastBar'>
-			Breakfast Bar: ", $info['breakfastBar'], "
-		</div>
-		
-		<div class='bSec washer'>
-			Washer: ", $info['washer'], "
-		</div>
-		
-		<div class='bSec dryer'>
-			Dryer: ", $info['dryer'], "
-		</div>
-		
-		<div class='bSec heat'>
-			Heating: ", $info['heat'], "
-		</div>
-		
-		<div class='bSec laundry'>
-			Laundry Room: ", $info['laundry'], "
-		</div>
-		
-		<div class='bSec pool'>
-			Pool: ", $info['pool'], "
-		</div>
-		
-		<div class='bSec gradeschool'>
-			Gradeschool: ", $info['gradeschool'], "
-		</div>
-		
-		<div class='bSec midschool'>
-			Middleschool: ", $info['midschool'], "
-		</div>
-		
-		<div class='bSec highschool'>
-			Highschool: ", $info['highschool'], "
-		</div>
-		
-		<div class='bSec oRange'>
-			Range: ", $info['oRange'], "
-		</div>
-		
-		<div class='bSec typeKitchen'>
-			Type of Kitchen: ", $info['typeKitchen'], "
-		</div>
-		
-		<div class='bSec kitchenFloor'>
-			Kitchen Floor: ", $info['kitchenFloor'], "
-		</div>
-		
-		<div class='bSec kitchenCabinets'>
-			Kitchen Cabinets: ", $info['kitchenCabinets'], "
-		</div>
+	<div class='contentDiv view'>	
+		<div class='col1'>		
+			<h1 class='title'>", $info['street'], " ", $info['city'], " $", $info['price'], " <a href='edit.php?priKey=", urlencode($priKey), "'>Edit</a></h1> 
+			<div class='basics'>
+				<span class='labels'>basics</span>
+				<span>Levels: </span>
+				<span>Rooms: </span>
+				<span>Bedrooms: </span>
+				<span>Bathrooms: </span>
+				<span>Age: </span>
+				<span>Lot: </span>
+				<span>Distance: </span>
+				<span>Total SqFt: </span>
+				<span>Finished SqFt: </span>
+				<span>UnFin SqFt: </span>
+			</div>
 			
-		<div class='bSec kitchenSink'>
-			Kitchen Sink: ", $info['kitchenSink'], "
+			<div class='bedrooms'>
+				<span class='labels'>bedrooms</span>
+			</div>
+			
+			<div class='storage'>
+				<span class='labels'>storage</span>
+			</div>
+			
+			<div class='bathrooms'>
+				<span class='labels'>bathrooms</span>
+			</div>
+			
+			<div class='kitchen'>
+				<span class='labels'>kitchen</span>
+			</div>
 		</div>
 		
-		<div class='bSec bathFloor'>
-			Bathroom Floor: ", $info['bathFloor'], "
+		<div class='col2'>
+			<div class='imgGal'>
+				<div class='mainImg'>
+				</div>
+				
+				<div class='thumbs'>
+				</div>
+			</div>
+			
+			<div class='outdoors'>
+				<span class='labels'>outdoors</span>
+			</div>
+			
+			<div class='basement'>
+				<span class='labels'>basement</span>
+			</div>
 		</div>
-		
-		<div class='bSec bathCounter'>
-			Bathroom Vanity: ", $info['bathCounter'], "
-		</div>
-		
-		<div class='bSec showerStall'>
-			Shower Stall: ", $info['showerStall'], "
-		</div>
-		
-		<div class='bSec basementFloor'>
-			Basement Floor: ", $info['basementFloor'], "
-		</div>
-		
-		<div class='bSec basementWalls'>
-			Basement Walls: ", $info['basementWalls'], "
-		</div>
-		
-		<div class='bSec familyFloor'>
-			Family Room Floor: ", $info['familyFloor'], "
-		</div>
-		
-		<div class='bSec bedFloor'>
-			Bedroom Floor: ", $info['bedFloor'], "
-		</div>
-		
-		<div class='bSec fenceType'>
-			Fence Type: ", $info['fenceType'], "
-		</div>
-		
-		<div class='bSec daysOnMarket'>
-			Days on the Market: ", $info['daysOnMarket'], "
-		</div>
-		
-		<div class='bSec rating'>
-			Rating: ", $info['rating'], "
-		</div>
-		
-		<div class='bSec kitchenCounter'>
-			Kitchen Counters: ", $info['kitchenCounter'], "
-		</div>
-		
-		<div class='clearfix'>
-		</div>
-		
-		";
-
-    echo "
-		<!-- IMAGE GALLERY GOES HERE 
-		all the files that are displayed via the loop below need to be in the 
-		image gallery.  Only place they should be displayed is here. -->
-		";
-    /** 	$dir = 'images/uploads/' . $_GET['priKey'];
-
-      $directory = $dir;
-
-      $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
-
-      while($it->valid())
-      {
-      if(!$it->isDot())
-      {
-      echo '<img src="', $it->key(), '" /><br />';
-      }
-
-      $it->next();
-      }
-     * */
-    ?>
-
-
-
-    <?php
-    echo "</div>
-	";
+	</div>
+";
 }

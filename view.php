@@ -17,8 +17,6 @@ if (isset($_GET['priKey'])) {
 
     $data = mysql_query("SELECT * FROM space WHERE priKey = '" . $priKey . "'") or die(mysql_error());
 
-    echo "<h3>View Listing</h3>";
-
     $info = mysql_fetch_array($data);
 
     viewPage($info);

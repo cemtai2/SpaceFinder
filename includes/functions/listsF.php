@@ -17,36 +17,67 @@ function lists() {
 		{
 			$priKey = $info['priKey'];
 			echo 
-			"<div class='list'>",
+
+			"<div class='list'>
+				<div class='img'>
+					<a href='/SpaceFinder/view.php?priKey=", urlencode($info['priKey']) ,"'>
+						<img src='images/uploads/1/testimg.png' />
+					</a>
+				</div>
+				
+				<div class='mid'>
+					<div class='address'>
+						<span>", $info['street'], "</span>
+						<span> ", $info['city'], "</span>					
+					</div>
+
+					<div class='container'>
+							<span>Rooms ", $info['rooms'], "</span>
+							<span>Beds ", $info['beds'], "</span>,
+							<span>Baths ", $info['baths'], "</span>,
+							<span>Distance ", $info['distance'], "</span>
+					</div>
+					
+					<div class='container'>
+						<span>Total Sqft ", $info['sqftTotal'], "</span> 
+						<span>Total Fin Sqft ", $info['sqftFin'], "</span> 
+						<span>Price ", $info['price'], "</span>
+					</div>
+				</div>
+				
+				<div class='rate'>",
+					round($info['rating'], 1),
+				"</div>
+			</div>";
+/*			"<div class='list'>",
 				"<a href='/SpaceFinder/view.php?priKey=", urlencode($info['priKey']) ,"'>",
 					"<img src='images/uploads/1/testimg.png' />",
 
-				"<span class='cont'>",
-					"<span class='address'>",
+				"<div class='cont'>",
+					"<div class='address'>",
 						"<span>", $info['street'], "</span>",
 						"<span> ", $info['city'], "</span>",						
-					"</span>",
+					"</div>",
+					"<div class='container'>",
+						"<span>Rooms ", $info['rooms'], "</span>",
+						"<span>Beds ", $info['beds'], "</span>",
+						"<span>Baths ", $info['baths'], "</span>",
+						"<span>Distance ", $info['distance'], "</span>",
+					"</div>",
 					
-					"<span class='container'>",
-						"Rooms ", $info['rooms'],
-						"Beds ", $info['beds'],
-						"Baths ", $info['baths'],
-						"Distance ", $info['distance'],
-					"</span>",
-					
-					"<span class='container'>",
+					"<div class='container'>",
 						"<span>Total Sqft ", $info['sqftTotal'], "</span>", 
 						"<span>Total Fin Sqft ", $info['sqftFin'], "</span>", 
 						"<span>Price ", $info['price'], "</span>", 
 					"</span>",
-				"</span>",
+				"</div>",
 				
 				"<span class='rate'>",
 					round($info['rating'], 1),
 				"</span>",
 				"</a>",
 			"</div>";
-			
+			*/
     }
 }
 

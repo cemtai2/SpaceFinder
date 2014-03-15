@@ -128,25 +128,7 @@ div.list {
 	position: relative;
 	outline: 10px solid @dkPurp;
 	margin: 50px auto;
-	height: 187px;
-}
-
-.cont {
-	display: inline-block;
-	margin: 20px 35px;
-	height: 156px;
-	vertical-align: top;
-	text-align: center;
-	width: 50%;
-}
-
-.cont:after {
-	.after;
-}
-
-.el {
-	display: inline-block;
-	padding: 5px;
+	height: 178px;
 }
 	
 .lrow {
@@ -161,17 +143,31 @@ div.list {
 	.adelle;
 	font-size: 24px;
 	text-align: center;
+	padding-bottom: 25px;
 }
 
 .rate {
 	display: inline-block;
 	font-size: 72px;
 	height: 156px;
-	margin: 20px 0;
+	margin: 25px 0;
+	position: relative;
+	top: 5px;
+	right: -20px;
 }
 
-.rate:after {
+div.img {
+	display: inline-block;
+}
+
+div.img:after, .mid:after, .rate:after {
 	.after;
+}
+
+.mid {
+	width: 50%;
+	display: inline-block;
+	margin: 0 25px;
 }
 
 div.list a {
@@ -531,6 +527,28 @@ input[type='checkbox']:checked + label span {
 	padding: 10px;
 	border: 1px solid @white;
 	display: inline-block;
+}
+
+/*  INDIVIDUAL PAGE */
+h1.title {
+	.adelle;
+	font-size: 36px;
+	color: @dkPurp;
+}
+
+.labels {
+	font-size: 18px;
+	color: @copper;
+	text-transform: uppercase;
+}
+
+.content {
+	font-size: 30px;
+	color: @dkGrey;
+}
+	
+.view {
+	margin: 60px;
 }
 
 /*  MIXINS  */
